@@ -1,0 +1,27 @@
+.lower {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 10px;
+}
+.c-btn {
+  padding: 10px 10px;
+  margin: 0.5rem 0rem;
+}
+#start {
+  margin: 0rem;
+}
+.c-btn:hover {
+  scale: 1;
+}
+.t-menu {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  margin: 0px;
+  padding: 0px;
+}

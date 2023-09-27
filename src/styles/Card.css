@@ -1,0 +1,56 @@
+.description {
+  padding: 0.2rem 1rem;
+
+  color: white;
+  justify-content: center;
+}
+.description > p {
+  margin: 0;
+  /* text-align: center; */
+}
+#time {
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+  text-align: end;
+}
+.card {
+  box-shadow: 0px 0px 1px white;
+  height: 250px;
+  width: 600px;
+  overflow: hidden;
+  display: flex;
+  margin: 2rem 0rem;
+  transition: scale 400ms;
+}
+.cw {
+  font-size: 14px;
+  color: rgb(170, 168, 168);
+}
+.img-title {
+  height: 100%;
+  width: auto;
+}
+@media screen and (max-width: 700px) {
+  .card {
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+  }
+  .card-btn {
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+}
+.card:hover {
+  scale: 1.07;
+}
+.card-btn {
+  background-color: white;
+  font-size: 16px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-left: 0;
+}

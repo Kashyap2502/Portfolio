@@ -1,0 +1,66 @@
+.about-main > h1 {
+  font-size: 45px;
+  font-weight: 800px;
+  color: white;
+}
+.about-main {
+  padding: 4rem 2rem;
+}
+@media screen and (max-width: 550px) {
+  .about-main > h1 {
+    font-size: 25px;
+  }
+  .about-main {
+    padding: 1rem 0.5rem;
+  }
+}
+.text > li {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  margin: 1rem 0rem;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  border-radius: 10px;
+}
+.skills {
+  margin-left: 30px;
+  width: 50%;
+  color: white;
+  font-size: 16px;
+  padding: 3rem;
+  box-shadow: 0px 0px 1px white;
+  border-radius: 10px;
+}
+.skills > p {
+  color: rgb(219, 210, 210);
+  font-size: 15px;
+}
+.text {
+  padding: 3rem;
+  padding-bottom: 1rem;
+  box-shadow: 0px 0px 1px white;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .content {
+    flex-direction: column;
+  }
+  .skills {
+    margin-top: 30px;
+    margin-left: 0;
+    width: auto;
+    padding: 1rem;
+  }
+  .text {
+    padding: 0;
+    box-shadow: none;
+  }
+}
+.about-btn {
+  margin: 2rem 0.5rem;
+}

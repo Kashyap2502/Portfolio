@@ -1,0 +1,16 @@
+.projects > h1 {
+  font-size: 45px;
+  font-weight: 800px;
+  color: white;
+}
+.projects {
+  padding: 1rem 2rem;
+}
+@media screen and (max-width: 550px) {
+  .projects > h1 {
+    font-size: 25px;
+  }
+  .projects {
+    padding: 1rem 0.5rem;
+  }
+}

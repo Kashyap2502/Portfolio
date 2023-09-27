@@ -1,0 +1,22 @@
+.edu-main > h1 {
+  font-size: 45px;
+  font-weight: 800px;
+  color: white;
+}
+.edu-main {
+  padding: 1rem 2rem;
+}
+@media screen and (max-width: 550px) {
+  .edu-main > h1 {
+    font-size: 25px;
+  }
+  .edu-main {
+    padding: 1rem 0.5rem;
+  }
+}
+
+.holder {
+  padding: 3rem 0rem;
+  display: flex;
+  justify-content: center;
+}
