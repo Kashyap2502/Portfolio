@@ -6,17 +6,37 @@
   background-image: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
   margin-left: 10%;
   margin-top: 2rem;
+  animation: size 1000ms;
 }
 
 @media screen and (max-width: 550px) {
   .divide {
     width: 75px;
     margin-left: 2%;
+    animation: size2 500ms;
   }
 }
 
 @media screen and (max-width: 850px) {
   .divide {
     margin-left: 2%;
+    animation: size2 500ms;
+  }
+}
+@keyframes size {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 150px;
+  }
+}
+
+@keyframes size2 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 75px;
   }
 }

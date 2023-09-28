@@ -7,11 +7,13 @@
   position: absolute;
   right: 30px;
   z-index: 0;
+  animation: size3 1000ms;
 }
 
 @media screen and (max-width: 550px) {
   .divide-2 {
     width: 150px;
+    animation: size4 500ms;
   }
 }
 
@@ -20,3 +22,20 @@
     margin-right: 2%;
   }
 } */
+@keyframes size3 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 300px;
+  }
+}
+
+@keyframes size4 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 150px;
+  }
+}
