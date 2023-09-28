@@ -1,5 +1,6 @@
 .App {
-  background-image: radial-gradient(circle at 3% 25%, #002853 0%, #040c18 100%);
+  /* background-image: radial-gradient(circle at 3% 25%, #002853 0%, #040c18 100%); */
+  background-color: #040c18;
 }
 .app-content {
   padding: 1rem 4rem;
